@@ -1,0 +1,8 @@
+{
+  "connectionLimiter": 12,
+  "maxWorkers": 12,
+  //Very very important, because noon blocked me while testing on a general search query,
+  "maxPages": 20,
+  //Timeout in seconds for httpx
+  "requestTimeout": 30
+}
