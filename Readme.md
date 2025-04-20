@@ -20,8 +20,14 @@ This tool is ideal for gathering large datasets quickly while maintaining perfor
 - `pip` (Python Package manger)
 
 ### Installation Steps
-
-- Create a virtual environment (venv) `python -m venv venv`
+- Clone the repo using
+```bash
+git clone  https://github.com/alielmorsy/NoonScrapper.git
+```
+- Create a virtual environment (venv)
+```bash
+python -m venv venv
+```
 - Active the environment
 
  ```bash
