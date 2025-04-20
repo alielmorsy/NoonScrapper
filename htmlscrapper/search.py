@@ -78,7 +78,7 @@ class NoonSearchScrapper:
         logger.info(f"Start parsing {page_count} page(s)")
         products = self.parse(results)
 
-        # Product paths are relative, So we need to join them with the found absloute URL.
+        # Product paths are relative, So we need to join them with the found absolute URL.
         for product in products:
             product["path"] = str(self.final_url.join(product["path"]))
         write_to_disk(output_path, products)

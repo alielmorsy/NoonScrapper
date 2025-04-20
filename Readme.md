@@ -93,7 +93,7 @@ The script supports a JSON configuration file (config.json) to customize its beh
   similar to atomic counter with mutex in threading, We can get the highest performance possible.
 - ThreadPool in our case is faster than Multiprocessing in our case for simple reason. My choice for the parsing library
   was `lxml`. This library written in Cython and after reading the source code it unlocks the `GIL` (Global Lock
-  Interpreter) which idle for multipage parsing on the same thread.
+  Interpreter) which ideal for multipage parsing on the same process.
 
 ## Future Improvements
 
