@@ -101,4 +101,3 @@ The script supports a JSON configuration file (config.json) to customize its beh
   simple SQL insert on my products.
 - I am not aware of any websites that uses `React` or `vue`,...etc. For dynamic page loading which kinda make sense,
   Most websites depend on `Next.js`, `Remix` which render the products list on the server components 
-- I couldn't upload this repository to GitHub as a public repository to avoid any potential legal issues.
